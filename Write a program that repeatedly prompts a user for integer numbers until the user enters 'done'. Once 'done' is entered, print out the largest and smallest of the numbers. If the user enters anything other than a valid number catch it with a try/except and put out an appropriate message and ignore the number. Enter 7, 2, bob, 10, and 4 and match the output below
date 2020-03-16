@@ -1,0 +1,21 @@
+largest = None
+smallest = None
+while True:
+    num = input("Enter a number: ")
+    if num == "done" : 
+        break
+    print(num)
+    try:
+        ival=float(num)
+    except:
+        ival=-1
+        print("invalid number")
+def ls(largest,smallest):
+    if num>largest:
+        print(num)
+    elif num<smallest:
+        print(num)
+print("Maximum", largest)
+print("Minimum",smallest)
+
+ls(largest,smallest)
